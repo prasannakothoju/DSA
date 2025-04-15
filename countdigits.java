@@ -26,4 +26,22 @@ public class Main{
        System.out.println("no of digits:"+res);
     }
 }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+public class Main{
+
+public static int countdigits(int n){
+    if(n==0) return 1;
+    return(int)(Math.log10(n)+1);
+     }
+
+public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    System.out.println("no of digits:"+countdigits(a));
+}
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
 
